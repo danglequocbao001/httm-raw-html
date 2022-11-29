@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 style="background-color: #3366ff; color: #fff; padding: 15px">
+      Hệ thống thông minh
+    </h1>
+    <p>Nhóm</p>
+    <div class="top-component">
+      <div style="display: flex; flex-direction: column; flex-wrap: wrap">
+        <textarea
+          placeholder="Nhập vào đoạn văn"
+          rows="20"
+          name="comment[text]"
+          id="comment_text"
+          cols="40"
+          class="ui-autocomplete-input"
+          autocomplete="off"
+          role="textbox"
+          aria-autocomplete="list"
+          aria-haspopup="true"
+        ></textarea>
+        <button class="send">Gửi</button>
+      </div>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input
+            class="search"
+            type="text"
+            placeholder="Search.."
+            name="search"
+          />
+          <button class="search-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="bottom-component">
+      <div class="labels">
+        <div class="label-wrapper">
+          <label class="label">Label Công nghệ</label>
+        </div>
+        <div class="label-wrapper">
+          <label class="label">Label Công nghệ</label>
+        </div>
+        <div class="label-wrapper">
+          <label class="label">Label Công nghệ</label>
+        </div>
+      </div>
+      <div class="result">
+        <div class="dropdown">
+          <a href="#" class="notification">
+            <span>CN</span>
+            <span class="badge">3</span>
+          </a>
+          <div class="dropdown-content">
+            <p>Hello World!</p>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="notification">
+            <span>CL</span>
+            <span class="badge">3</span>
+          </a>
+          <div class="dropdown-content">
+            <p>Hello World!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
