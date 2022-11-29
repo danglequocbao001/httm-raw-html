@@ -40,13 +40,13 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  padding: 20px
+  padding: 20px;
 }
 
 .bottom-component {
   display: flex;
   width: 100%;
-  padding: 20px
+  padding: 20px;
 }
 
 .search-container {
@@ -73,7 +73,7 @@ textarea:focus {
 
 .labels {
   width: 20%;
-  margin-right: 50px
+  margin-right: 50px;
 }
 
 .label-wrapper {
@@ -90,20 +90,25 @@ textarea:focus {
 }
 
 .notification {
-  background-color: #555;
-  color: white;
   text-decoration: none;
-  padding: 15px 26px;
   position: relative;
   display: inline-block;
   border-radius: 2px;
-  min-width: 50px;
+  width: 300px;
   text-align: center;
   border-radius: 10px;
+
+  text-align: center;
+  background: #33cc33;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
 }
 
 .notification:hover {
-  background: red;
+  background: #bfbfbf;
 }
 
 .notification .badge {
@@ -134,4 +139,14 @@ textarea:focus {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.row {
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 10px;
 }
